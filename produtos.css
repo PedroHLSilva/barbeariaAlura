@@ -28,6 +28,11 @@ nav a {
     text-decoration: none;   
 }
 
+nav a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
 .produtos li {
     display: inline-block;
     text-align: center;
@@ -38,6 +43,18 @@ nav a {
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: blue;
+}
+
+.produtos li:active{
+    border-color: red;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
 }
 
 .produtos {
